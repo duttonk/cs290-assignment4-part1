@@ -9,3 +9,7 @@ Tasks: Watch posted videos, create weekly repository, create files/folders and p
 Start: Thurs 30 Apr 2015 20:00:00 -0400
 End: Thurs 30 Apr 2015 22:26:45 -0400
 Tasks: Participate in tutoring session. Code files and upload to FLIP server to check functionality - get a working set of files to build from a place of strength.
+
+Start: Fri 1 May 2015 14:15:37 -0400
+End: Fri 1 May 2015 17:12:16 -0400
+Tasks: Write HTML start page and multtable.php, as well as downloading and beginning to use XAMPP for local php running and testing. Finish multtable.php except for incorrect first row of all zeros (FIX THIS!).
