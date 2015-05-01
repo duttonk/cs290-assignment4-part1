@@ -5,3 +5,7 @@ Week 5 Work Log
 Start: Wed 29 Apr 2015 18:40:26 -0400
 End: Wed 29 Apr 2015 21:52:18.66 -0400
 Tasks: Watch posted videos, create weekly repository, create files/folders and push to repo.
+
+Start: Thurs 30 Apr 2015 20:00:00 -0400
+End: Thurs 30 Apr 2015 22:26:45 -0400
+Tasks: Participate in tutoring session. Code files and upload to FLIP server to check functionality - get a working set of files to build from a place of strength.
