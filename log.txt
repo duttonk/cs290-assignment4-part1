@@ -13,3 +13,11 @@ Tasks: Participate in tutoring session. Code files and upload to FLIP server to 
 Start: Fri 1 May 2015 14:15:37 -0400
 End: Fri 1 May 2015 17:12:16 -0400
 Tasks: Write HTML start page and multtable.php, as well as downloading and beginning to use XAMPP for local php running and testing. Finish multtable.php except for incorrect first row of all zeros (FIX THIS!).
+
+Start: Fri 1 May 2015 18:46:46 -0400
+End: Fri 1 May 2015 23:38:38 -0400 (breaks for dinner and driving)
+Tasks: Correct multtable.php and fully comment out, write login.php (source: code from tutoring session Thursday night), work on content1.php (source: tutoring code, lecture 5 source code, textbook). Rewatch pertinent videos and research.
+
+Start: Sat 2 May 2015 07:53:19 -0400
+End: Sat 2 May 2015 11:56:55 -0400
+Tasks: Continue working on content1.php, while researching and reading textbook. Complete content1.php and content2.php. Update log.

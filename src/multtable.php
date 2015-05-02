@@ -39,42 +39,56 @@ ini_set('display_errors', 'On');
   	  	echo "Minimum multiplier larger than maximum. <br />";
   	  }
 
+      echo "<h3>Multiplication Table</h3>";
+
+      #variables for table generation
   	  $height = $_GET['maxMand'] - $_GET['minMand'] + 2;
   	  $width = $_GET['maxMer'] - $_GET['minMer'] + 2;
+
+  	  #Create arrays for column and row headers
   	  $rowHeads = array();
   	  $colHeads = array();
   	  array_push($rowHeads, " ");
   	  array_push($colHeads, " ");
 
+      #fill row headers array
   	  for($x = $_GET['minMand']; $x <= $_GET['maxMand']; $x++) {
         array_push($rowHeads, $x);
   	  }
+  	  #fill column headers array
   	  for($x = $_GET['minMer']; $x <= $_GET['maxMer']; $x++) {
         array_push($colHeads, $x);
   	  }
 
-      echo "<table border=1>";
+      #Source: http://www.quora.com/How-can-I-create-a-table-in-HTML-by-using-PHP-for-a-loop-that-is-formed-by-matrix-addition-dynamically
   	  echo "<table border=1><thead><tr>";
 
+      #use column headers as header cells
   	  foreach($colHeads as $colHead) {
-  	  	echo "<th>" . $colHead . "</th>";
+  	 	echo "<th>" . $colHead . "</th>";
   	  }
   	  echo "</tr></thead><tbody>";
-  	  
-  	  for($rows = 0; $rows < $height; $rows++) {
+     	  
+      #Fill table
+  	  for($rows = 1; $rows < $height; $rows++) {
+  	  	#create row elements for specified height
   	  	echo "<tr>";
+
+  	  	#for each row, create column elements for specified width
   	  	for($cols = 0; $cols < $width; $cols++) {
+  	  		#in first column, populate with values from row header array
   	  		if($cols == 0) {
   	  			echo "<td>" . $rowHeads[$rows] . "</td>";
   	  		} else {
+  	  			#calculate and populate with products
   	  			$body = $rowHeads[$rows] * $colHeads[$cols];
   	  			echo "<td>" . $body . "</td>";
   	  		}
   	  	}
   	  	echo "</tr>";
   	  }
+  	  echo "</tbody></table>";
   	?>
-
-
+  	
   </body>
 </html>
