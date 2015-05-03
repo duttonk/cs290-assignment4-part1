@@ -9,10 +9,10 @@ ini_set('display_errors', 'On');
   <body>
 
   	<?php
-  	  $inputs = array('minMand' => 'Minimum Multiplicand', 
-  	  	              'maxMand' => 'Maximum Multiplicand', 
-  	  	              'minMer' => 'Minimum Multiplier', 
-  	  	              'maxMer' => 'Maximum Multiplier');
+  	  $inputs = array('min-multiplicand' => 'Minimum Multiplicand', 
+  	  	              'max-multiplicand' => 'Maximum Multiplicand', 
+  	  	              'min-multiplier' => 'Minimum Multiplier', 
+  	  	              'max-multiplier' => 'Maximum Multiplier');
       $error = false;
 
   	  #Check that inputs exist
@@ -36,13 +36,13 @@ ini_set('display_errors', 'On');
   	  }
 
       #Check min <= max multiplicand
-      if($_GET['minMand'] > $_GET['maxMand']) {
+      if($_GET['min-multiplicand'] > $_GET['max-multiplicand']) {
       	echo "Minimum multiplicand larger than maximum. <br />";
         $error = true;
       }
 
   	  #Check min <= max multiplier
-  	  if($_GET['minMer'] > $_GET['maxMer']) {
+  	  if($_GET['min-multiplier'] > $_GET['max-multiplier']) {
   	  	echo "Minimum multiplier larger than maximum. <br />";
         $error = true;
   	  }
@@ -51,8 +51,8 @@ ini_set('display_errors', 'On');
         echo "<h3>Multiplication Table</h3>";
 
         #variables for table generation
-  	   $height = $_GET['maxMand'] - $_GET['minMand'] + 2;
-  	   $width = $_GET['maxMer'] - $_GET['minMer'] + 2;
+  	   $height = $_GET['max-multiplicand'] - $_GET['min-multiplicand'] + 2;
+  	   $width = $_GET['max-multiplier'] - $_GET['min-multiplier'] + 2;
 
   	   #Create arrays for column and row headers
   	   $rowHeads = array();
@@ -61,11 +61,11 @@ ini_set('display_errors', 'On');
   	   array_push($colHeads, " ");
 
         #fill row headers array
-    	  for($x = $_GET['minMand']; $x <= $_GET['maxMand']; $x++) {
+    	  for($x = $_GET['min-multiplicand']; $x <= $_GET['max-multiplicand']; $x++) {
           array_push($rowHeads, $x);
   	   }
   	   #fill column headers array
-  	   for($x = $_GET['minMer']; $x <= $_GET['maxMer']; $x++) {
+  	   for($x = $_GET['min-multiplier']; $x <= $_GET['max-multiplier']; $x++) {
          array_push($colHeads, $x);
   	   }
 

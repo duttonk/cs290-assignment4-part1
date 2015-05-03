@@ -29,3 +29,7 @@ Tasks: Upload login.php files to OSU server to test, solve php errors (headers a
 Start: Sat 2 May 2015 22:50:15 -0400
 End: Sat 2 May 2015 22:55:20 -0400
 Tasks: Finalize loopback.php and error messaging on multtable.php, update log.
+
+Start: Sun 3 May 07:40:12 -0400
+End: Sun 3 May 08:03:20 -0400
+Tasks: Change variable names in multtable.php to match assignment exactly (I had previously coded them to be shorter), ensure that the links directly to the assignments on the server work as intended, submit links for credit.
