@@ -23,5 +23,9 @@ End: Sat 2 May 2015 11:56:55 -0400
 Tasks: Continue working on content1.php, while researching and reading textbook. Complete content1.php and content2.php. Update log.
 
 Start: Sat 2 May 2015 13:48:15 -0400
-End:
-Tasks: Upload login.php files to OSU server to test, solve php errors (headers already sent), solve username errors
+End: Sat 2 May 2015 20:00:57 -0400
+Tasks: Upload login.php files to OSU server to test, solve php errors (headers already sent), solve username errors.Broke some stuff, fix that until group of files works as intended. Begin working on loopback.php, including lots of time spent reading message boards to avoid pitfalls and clarify assignment parameters. Correct multtable.php to throw an error upon receipt of negative numbers.
+
+Start: Sat 2 May 2015 22:50:15 -0400
+End: Sat 2 May 2015 22:55:20 -0400
+Tasks: Finalize loopback.php and error messaging on multtable.php, update log.
